@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:background="#FCE6C9"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+    <ImageButton
+        android:background="#00000000"
+        android:id="@+id/iv_friend"
+        android:src="@drawable/card_icon_arrow"
+        android:layout_width="0dp"
+        android:layout_weight="0.3"
+        android:layout_height="wrap_content" />
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+    <RadioButton
+        android:button="@null"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:id="@+id/bt_mine"
+        android:text="神门十三剑_"
+        android:background="#00000000"
+        android:drawableRight="@drawable/xiala"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+    <ImageButton
+        android:id="@+id/ib_radar"
+        android:background="#00000000"
+        android:src="@mipmap/navigationbar_icon_radar"
+        android:layout_width="0dp"
+        android:layout_weight="0.3"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+<android.support.v4.widget.SwipeRefreshLayout
+    android:layout_width="match_parent"
+    android:id="@+id/swip"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/lv_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+</android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#c0c0c0" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioButton
+        android:button="@null"
+        android:text="雷达"
+        android:drawableLeft="@mipmap/navigationbar_icon_radar"
+        android:layout_width="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content" />
+<RadioButton
+    android:text="扫一扫"
+    android:button="@null"
+    android:textColor="#FFFFFF"
+    android:layout_marginTop="10dp"
+    android:drawableLeft="@mipmap/ss"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+</LinearLayout>
